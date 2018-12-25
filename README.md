@@ -1,2 +1,3 @@
-# javascript-tower-defense
+# JavaScript Tower Defense
+
 Tower Defense game built with vanilla JavaScript.
