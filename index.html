@@ -7,11 +7,18 @@
   <meta name="description" content="Tower Defense game built with vanilla JavaScript.">
   <title>JavaScript Tower Defense Game</title>
   <!-- Stylesheets -->
-  <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-  <canvas id="canvas"></canvas>
+  <div class="gui">
+    <div id="stats"></div>
+    <div id="buttons"></div>
+  </div>
+  <canvas id="canvas" height="800" width="600"></canvas>
 <!-- Scripts -->
-<script src="assets/js/script.js"></script>
+<script src="assets/js/game.js"></script>
+<script>
+ game.init();
+</script>
 </body>
 </html>
